@@ -69,8 +69,8 @@
                           $mail->isSMTP();
                           $mail->Host = 'smtp.gmail.com';  // SMTP server address
                           $mail->SMTPAuth = true;
-                          $mail->Username = 'amjad.ae.97@gmail.com'; // SMTP username
-                          $mail->Password = 'ocewmuqcybvpdzkr'; // SMTP password
+                          $mail->Username = ''; // SMTP username
+                          $mail->Password = ''; // SMTP password
                           $mail->Port = 587; // SMTP port (usually 587 for TLS encryption)
 
                           // Recipients
