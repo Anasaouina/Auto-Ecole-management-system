@@ -1,0 +1,12 @@
+Formateur = (Num_ss INT, Nom VARCHAR(50), Prenom VARCHAR(50));
+Formule = (Id_formule INT, Libelle VARCHAR(50), Prix DOUBLE);
+Candidat = (Id_candidat INT, Nom VARCHAR(50), Mail VARCHAR(50) COLLATE exemple@gmail.com, Prenom VARCHAR(50), Adresse VARCHAR(50), Date_naissance DATE);
+Code = (Id_code INT, formule_illimitée LOGICAL, #Id_formule);
+Type_permis = (ID VARCHAR(50), Prix DOUBLE);
+acheter_cours = (Id_cours_acheté VARCHAR(50), nombre_h_acheté VARCHAR(50), #Id_candidat, #ID);
+Vehicule = (Immatriculation VARCHAR(50), Date_achat DATE, Puissance INT, #ID);
+Conduit = (Id_conduit INT, nb_heures INT, #ID, #Id_formule);
+C_conduit = (N_demande INT, Date_achat VARCHAR(50), #Id_conduit, #Id_candidat);
+Reservation = (Num_res INT, Date_res DATE, Statut VARCHAR(50), Date_valid DATE, Date_lim DATE, Date_plan DATE, #Id_cours_acheté*, #N_demande*, #Immatriculation, #Num_ss);
+Achète = (#Id_candidat, #Id_code, Date_debut DATE, Date_fin DATE);
+Posséder = (#Num_ss, #ID);

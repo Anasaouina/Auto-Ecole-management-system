@@ -1,0 +1,98 @@
+/* Style de base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    color: #5d267d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recap-section h2,
+.formateur-section h2,
+.vehicule-section h2,
+.options-section h2,
+.infos-section h2 {
+    color: #7d48b1;
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.confirm-btn {
+    background-color: #7d48b1;
+    color: #fff;
+}
+
+button.confirm-btn:hover {
+    background-color: #5d267d;
+}
+
+button.refuse-btn {
+    background-color: #f44336;
+    color: #fff;
+}
+
+button.refuse-btn:hover {
+    background-color: #d32f2f;
+}
+
+button.change-btn {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+button.change-btn:hover {
+    background-color: #1976d2;
+}
+
+button.cancel-btn {
+    background-color: #ccc;
+    color: #333;
+}
+
+button.cancel-btn:hover {
+    background-color: #bbb;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    color: #5d267d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recap-section h2,
+.formateur-section h2,
+.vehicule-section h2,
+.infos-section h2 {
+    color: #7d48b1;
+    margin-top: 30px;
+}
